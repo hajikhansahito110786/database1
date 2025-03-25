@@ -49,7 +49,7 @@ def add_video(name, duration):
 # ===== Streamlit UI =====
 def login_page():
     """Login/Signup Interface"""
-    st.title("Haji Khan Video Manager Login")
+    st.title("Haji Khan Roll # 00323607 with sqlite3 Video Manager Login with ")
     
     tab1, tab2 = st.tabs(["Login", "Create user or Sign Up"])
     
