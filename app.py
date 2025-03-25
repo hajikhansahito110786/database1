@@ -49,9 +49,9 @@ def add_video(name, duration):
 # ===== Streamlit UI =====
 def login_page():
     """Login/Signup Interface"""
-    st.title("?? Video Manager Login")
+    st.title("Haji Khan Video Manager Login")
     
-    tab1, tab2 = st.tabs(["Login", "Sign Up"])
+    tab1, tab2 = st.tabs(["Login", "Create user or Sign Up"])
     
     with tab1:
         username = st.text_input("Username", key="login_user")
